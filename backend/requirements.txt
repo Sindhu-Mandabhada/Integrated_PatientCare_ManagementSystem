@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Flask
 Flask-Cors
 PyJWT
+=======
+Flask
+Flask-Cors
+PyJWT
+>>>>>>> 772aa122c01472aacf2cc80ce9824eb4d558fc99
 Werkzeug
