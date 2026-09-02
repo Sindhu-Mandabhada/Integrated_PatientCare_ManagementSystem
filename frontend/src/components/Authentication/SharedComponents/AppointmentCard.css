@@ -1,0 +1,156 @@
+.appointment-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  padding: 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.appointment-icon {
+  width: 48px;
+  height: 48px;
+  background: #eff6ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.appointment-title {
+  flex: 1;
+}
+
+.appointment-title h3 {
+  margin: 0 0 4px;
+  color: #1f2937;
+  font-size: 17px;
+}
+
+.appointment-title p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.appointment-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.appointment-status.confirmed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.appointment-status.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.appointment-status.completed {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.appointment-status.cancelled {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.appointment-details {
+  display: flex;
+  gap: 35px;
+  margin: 22px 0;
+  padding-top: 18px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.appointment-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.appointment-detail > span {
+  font-size: 20px;
+}
+
+.appointment-detail small {
+  display: block;
+  color: #9ca3af;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+.appointment-detail strong {
+  color: #374151;
+  font-size: 14px;
+}
+
+.appointment-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.appointment-actions button {
+  padding: 9px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.appointment-view-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.appointment-view-btn:hover {
+  background: #1d4ed8;
+}
+
+.appointment-cancel-btn {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.appointment-cancel-btn:hover {
+  background: #fecaca;
+}
+
+@media (max-width: 600px) {
+  .appointment-card-header {
+    align-items: flex-start;
+  }
+
+  .appointment-status {
+    font-size: 11px;
+  }
+
+  .appointment-details {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .appointment-actions {
+    flex-direction: column;
+  }
+
+  .appointment-actions button {
+    width: 100%;
+  }
+}
