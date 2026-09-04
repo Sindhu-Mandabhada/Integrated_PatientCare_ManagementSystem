@@ -3,14 +3,6 @@
 # 🏥 MediTrack – Integrated Patient Care Management System
 ## 🛠️ Technologies Used
 
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
-[![Flask 3.0](https://img.shields.io/badge/Flask-3.0-green.svg)](https://flask.palletsprojects.com/)
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![SQLite](https://img.shields.io/badge/SQLite-3-blue.svg)](https://www.sqlite.org/)
-[![REST API](https://img.shields.io/badge/API-REST-orange.svg)](https://developer.mozilla.org/en-US/docs/Glossary/REST)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 MediTrack is a web-based **Integrated Patient Care Management System** designed to simplify and manage healthcare-related activities through a centralized platform.
 
 The system provides separate functionality for **Patients, Doctors, and Administrators**, helping manage patient information, appointments, consultations, prescriptions, notifications, reports, and other healthcare operations.
